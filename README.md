@@ -1,83 +1,40 @@
 # JHS Gymnasium Rental Website
 
-## Project Description
-The JHS Gymnasium Rental Website is a modern, user-friendly platform designed to facilitate the booking and management of events at the JHS Gymnasium. It allows users to view upcoming events, book the venue for their own events, and access important venue information. The website features a visually appealing interface, interactive event carousel, and easy navigation to enhance the user experience.
+A multi-page website for renting a high school gymnasium as an event venue: browse upcoming events, buy tickets, request a booking, and check venue policies. Built for an FBLA website design competition.
 
-## Significance of the Project
-- **Community Engagement:** Enables the local community to easily access information about gymnasium events and make bookings.
-- **Streamlined Booking:** Simplifies the event rental process, reducing manual work and improving efficiency for both users and administrators.
-- **Transparency:** Provides clear event schedules and venue details, fostering trust and reliability.
-- **Scalability:** The static site structure allows for easy updates and expansion as new events or features are added.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## Tech Stack Used
-- **HTML5:** For structuring the web pages and content.
-- **CSS3:** For styling and responsive design, ensuring the site looks professional on all devices.
-- **JavaScript:** For interactive features such as the event carousel and dynamic navigation.
-- **Font Awesome & Google Fonts:** For modern icons and typography, enhancing visual appeal.
+![Home page](docs/gym-home.png)
 
-### Why These Technologies?
-- **Simplicity & Speed:** Static site technologies are fast, secure, and easy to deploy.
-- **Accessibility:** No backend setup required, making it easy for anyone to clone and run locally.
-- **Maintainability:** Code is easy to read, update, and extend for future features.
+## Pages
 
-## Getting Started
+| Page | What's there |
+|---|---|
+| **Home** | Image carousel, featured events, call to action |
+| **Events & Tickets** | Nine upcoming events, each with its own detail page and a ticket purchase pop-up |
+| **Event Booking** | Venue features (3,500-seat capacity, sound, kitchen, accessibility) and a booking request form |
+| **Venue Information** | Policies, amenities, and a seating chart |
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- [Optional] Python (for running a local web server)
+![Events page](docs/gym-events.png)
 
-### Steps to Clone, Install, and Run
+## Highlights
 
-1. **Clone the Repository**
-   ```powershell
-   git clone https://github.com/tvisham/Gymnasium-Rental-Website.git
-   cd Gymnasium-Rental-Website
-   ```
+- Responsive layout with a hamburger menu on small screens
+- Hand-written carousel (no libraries)
+- Modal ticket form with a purchase confirmation (front-end only; no real payments)
+- Consistent visual system across 13 pages with Google Fonts and Font Awesome icons
 
-2. **Run the Website**
-   - **Option 1:** Open `index.html` directly in your browser.
-   - **Option 2 (Recommended):** Run a local web server for better compatibility:
-     ```powershell
-     python -m http.server 8000
-     ```
-     Then visit [http://localhost:8000](http://localhost:8000) in your browser.
+## Run it
 
-## Folder Structure
-```
-Gymnasium-Rental-Website/
-├── index.html
-├── booking.html
-├── events.html
-├── information.html
-├── style.css
-├── script.js
-├── event1.jpg, event2.jpg, ...
-├── image1.png, image2.png
-└── ...
+```bash
+git clone https://github.com/tvisham/Gymnasium-Rental-Website.git
+cd Gymnasium-Rental-Website
+python -m http.server 8000
 ```
 
-## Features
-- Event carousel showcasing upcoming events
-- Easy navigation and booking process
-- Responsive design for mobile and desktop
-- Featured events section
-- Venue information page
+Open http://localhost:8000, or just open `index.html` in a browser.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+## Tech
 
-## License
-This project is licensed under the MIT License.
+HTML5 · CSS3 · vanilla JavaScript · Google Fonts · Font Awesome
 
-## Output Screenshots
-Below are screenshots demonstrating the website's main features and user interface.
-
-![JHS Gymnasium screenshot](JHS%20Gymnasium.png)
-
-*(Screenshot file: `JHS Gymnasium.png`. Add this file to the project root or update the path above if you place it in a subfolder like `screenshots/`.)*
-
-## Contact
-For questions or feedback to colloborate, please contact me via GitHub.
-
----
-*Thank you for using the JHS Gymnasium Rental Website!*
